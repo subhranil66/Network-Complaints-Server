@@ -1,0 +1,29 @@
+{
+  "name": "telecom-connectivity-server",
+  "version": "1.0.0",
+  "description": "Server for Telecom Connectivity app and web portal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-sankhadip/Telecom-Connectivity-Server.git"
+  },
+  "author": "Sankhadip Samanta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-sankhadip/Telecom-Connectivity-Server/issues"
+  },
+  "homepage": "https://github.com/dev-sankhadip/Telecom-Connectivity-Server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.0",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
